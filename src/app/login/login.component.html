@@ -1,0 +1,18 @@
+<h2 class="text-center">Login</h2>
+<div class="container">
+<div class="row">
+    <div class="form-group">
+      <input [(ngModel)]="usuario.nome" id="usuario" type="email" class="form-control">
+      <label class="active" for="usuario">Usuário</label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="form-group">
+      <input [(ngModel)]="usuario.senha" id="senha" type="password" class="form-control">
+      <label class="active" for="senha">Senha</label>
+    </div>
+</div>
+
+<button class="btn btn-danger"type="submit" name="action" (click)="fazerLogin()" >Login</button>
+</div>
